@@ -53,5 +53,57 @@ let functionone = function(){
 console.log(typeof functionone)
 
 
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++//
+
+//Stack (primitive)
+//Heap(non-primitive)
+
+
+/* 
+STACK
+primitive will store in stack memmory if you 
+create a variable give value and now new variable u created and assigned your old variable
+then it will create copy and give if u change in copy value it will not effect og variable value 
+for example:  
+*/
+let variable1="rexmore"
+let variable2=variable1
+variable2="smit"
+
+console.log(variable1)
+console.log(variable2)
+
+/*
+HEAP
+non-primitive will be stored in heap. if you created a object1 and that and created object2 and assigned object1
+then you will give reference to object2 if object2 or object1 changed the value then it will show to both of them 
+means you'are accessing the same value
+for example:
+*/
+let userone={
+    username:"blah@gmail.com",
+    upi:"blah@ybl"
+}
+
+let usertwo=userone
+usertwo.username="rex@gmail"//it will change in both of them 
+
+console.log(userone);
+console.log(usertwo);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
