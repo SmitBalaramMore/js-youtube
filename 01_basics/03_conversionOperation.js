@@ -7,7 +7,7 @@
 
 // "33" => 33
 // "33abc" => NaN
-// true => , false => 0 
+// true => 1 , false => 0 
 
 
 
@@ -57,7 +57,8 @@ console.log((1+1)+"4")//the output will be 24
 postfix => 1++
 
 
-let count=100
-let y = ++count;
-console.log(count,y)*/
+let x=100
+let y = ++x;
+console.log(y,x)
+*/
 

@@ -3,13 +3,13 @@
 primitive data types are stored directly in memory when you work
 with them you are manipulate the actual value
 types:
-1.stringe
-2.number
-3.bigint
-4.boolean
-5.null
-6.symbol
-7.undefined
+1.String: Used for representing textual data.
+2.Number: Used for representing numeric values.
+3.BigInt: Used for representing large integers.
+4.Boolean: Used for representing true or false values.
+5.Null: Used to represent the absence of a value.
+6.Symbol: Used to create unique identifiers for object properties.
+7.Undefined: Used to represent a variable that has been declared but not assigned a value
 */
 
 const value=Symbol('1234')

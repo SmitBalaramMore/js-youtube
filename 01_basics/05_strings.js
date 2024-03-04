@@ -10,10 +10,11 @@ console.log(gamename);
 console.log(gamename.split(''))
 console.log(gamename[1])
 console.log(gamename.length);
-console.log(gamename.toUpperCase(2));
+console.log(gamename.slice(5,8).toUpperCase());
 console.log(gamename.replace("l","s"));
 console.log(gamename.charAt(2));
 console.log(gamename.indexOf("d"));
+
 
 
 
