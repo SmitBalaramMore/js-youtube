@@ -1,4 +1,8 @@
-// array
+//1. array are zero-indexed the first element of index is 0
+// 2.js array-copy operation create shallow copies
+//shallow copy of an object is a copy whose properties share same reference
+//3.deep copy of an object is a copy whose properties do not share th same reference
+
 
 const myArr = [0, 1, 2, 3, 4, 5]
 const myHeors = ["shaktiman", "naagraj"]
@@ -15,10 +19,10 @@ const myArr2 = new Array(1, 2, 3, 4)
 // myArr.unshift(9)
 // myArr.shift()
 
-// console.log(myArr.includes(9));
-// console.log(myArr.indexOf(3));
+//console.log(myArr.includes(9)); if we want to find 9 is include in array it will ans in boolean value
+// console.log(myArr.indexOf(3)); gives the index of value if value is not there it will give ans in minus
 
-// const newArr = myArr.join()
+// const newArr = myArr.join() its join the array and convert it into string
 
 // console.log(myArr);
 // console.log( newArr);
