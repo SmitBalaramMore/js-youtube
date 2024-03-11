@@ -30,4 +30,17 @@ ob2={4:"a",5:"b",6:"c"}
 
 //oball=Object.assign({},ob1,ob2);
 const oball={...ob1,...ob2}
-console.log(oball);
+//console.log(oball);
+
+
+//object destructuring
+
+
+const course={
+    name:'js',
+    price:99,
+    instructur:'smitmore'
+}
+
+const {instructur}=course;
+console.log(instructur);
